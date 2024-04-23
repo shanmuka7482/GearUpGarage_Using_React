@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "../../../photos/advantages/f1.png";
-import img2 from "../../../photos/advantages/f2.png";
-import img3 from "../../../photos/advantages/f3.png";
-import img4 from "../../../photos/advantages/f4.png";
+import img1 from "../../photos/advantages/f1.png";
+import img2 from "../../photos/advantages/f2.png";
+import img3 from "../../photos/advantages/f3.png";
+import img4 from "../../photos/advantages/f4.png";
 import styles from './ButtonBaseDemo.module.css'; // Import the CSS file
 
 const images = [

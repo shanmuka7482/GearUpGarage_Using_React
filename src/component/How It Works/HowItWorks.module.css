@@ -44,7 +44,7 @@
   color: black;
   margin-bottom: 45px;
   line-height: 1.6;
-  width: 70%;
+  width: 85%;
   font-size: larger;
   letter-spacing: 0.4px;
 }
@@ -93,6 +93,8 @@
   text-align: left;
   font-size: 24px;
   padding-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .cardtitle {

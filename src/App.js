@@ -2,18 +2,16 @@
 import './App.css';
 import Footer from './component/Footer/Footer';
 import Header from "./component/Header/Header";
-import Carousel from "./component/Home/Carousel/Carousel"
-import Advantages from "./component/Home/Advantages/Advantages"
-import WhyChooseUs from "./component/Home/WhyChooseUs/WhyChoseUs"
-import HowItWorks from "./component/Home/How It Works/HowItWorks"
+import Home from "./Pages/Home/Home"
+// import Login from './Pages/Login/Login';
+// import SignUp from './Pages/Sign Up/SignUp';
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Carousel/>
-      <WhyChooseUs/>
-      <HowItWorks/>
-      <Advantages/>
+      <Home/>
+      {/* <Login/> */}
+      {/* <SignUp/> */}
       <Footer/>
     </div>
   );
