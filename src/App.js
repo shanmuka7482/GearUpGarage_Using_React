@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home";
 import Faq from "./Pages/Faq/Faq";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/Sign Up/SignUp";
+import About from "./Pages/About/About.jsx";
 import {  Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/service" element={<Service />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
 
