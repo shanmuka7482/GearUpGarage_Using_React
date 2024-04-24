@@ -3,7 +3,7 @@ import styles from "../Login/Login.module.css"
 const SignUp = () => {
   return (
     <div className={`${styles.body}`}>
-      <section >
+      <section className={`${styles.section}`}>
         <div className={`${styles.login}`}>
           <h2>SIGN UP</h2>
           <div className={`${styles.inputBox}`}>
@@ -16,7 +16,7 @@ const SignUp = () => {
             <input type="submit" value="SIGN UP" id={`${styles.btn}`} />
           </div>
           <div className={`${styles.group1}`}>
-            <a href="#">already have an account? Sign In</a>
+            <a href="/login">already have an account? Sign In</a>
           </div>
         </div>
       </section>

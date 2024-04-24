@@ -3,7 +3,7 @@ import styles from "./Login.module.css"
 const Login = () => {
   return (
     <div className={`${styles.body}`}>
-        <section>
+        <section className={`${styles.section}`}>
 		<div className={`${styles.login}`}>
 		    <h2>SIGN IN</h2>
 			<div className={`${styles.inputBox}`}>
@@ -17,7 +17,7 @@ const Login = () => {
 			</div>
 			<div className={`${styles.group}`}>
 				<a href="#">Forget Password</a>
-				<a href="#">Signup</a>
+				<a href="/signup">Signup</a>
 			</div>
 		</div>
 	</section>

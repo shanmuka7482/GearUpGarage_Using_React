@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Assuming you use React Router for navigation
 import logo from "../../photos/logo.png";
 import styles from "./Navbar.module.css";
 function NavScrollExample() {
@@ -18,38 +17,38 @@ function NavScrollExample() {
       <header className="App-header">
         <nav className={`${styles.navbar}`}>
           {/* logo */}
-          <a href="#home"  >
+          <a href="/"  >
             <img src={logo} alt="Logo" style={{ width: "200px" }} />
           </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
             <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
+              <a href="/" className={`${styles.navLink}`}>
                 Home
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
+              <a href="/about" className={`${styles.navLink}`}>
                 About
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
+              <a href="/service" className={`${styles.navLink}`}>
                 Services
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
+              <a href="/faq" className={`${styles.navLink}`}>
                 FAQs
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
+              <a href="/contact" className={`${styles.navLink}`}>
                 Contact
 
               </a>
             </li>
           </ul>
-          <a href="#home"  className={`${styles.login}`}>
+          <a href="/login"  className={`${styles.login}`}>
             Login
           </a>
 
